@@ -17,5 +17,7 @@ dependencies:
   - conda-forge::jupyter_contrib_nbextensions
   - pymc3
   - scikit-learn
-  - pycountry
-  - pycountry-convert
+  - pip:
+    - pycountry==22.1.10
+    - pycountry-convert==0.7.2
+    - networkx
